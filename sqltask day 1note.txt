@@ -1,0 +1,78 @@
+Movies
+id	title	director	year	reviews	genre
+1	Toy Story 4	El Directore	2015	Good	english,tamil
+2	Toy Story 2	El Directore	2018	Good	english,tamil
+3	ponniyin selvan	manirathnam	2022	good	tamil,english,malayalam
+4	ponniyin selvan 2	manirathnam	2023	good	tamil,english,malayalam
+5	Avatar	lay	2008	good	tamil,english
+6	Avatar2	lay	2023	good	tamil,english
+7	pirates	jack	2002	good	tamil,english,malayalam,hindi
+8	peter pan	pan	2002	good	tamil,english,malayalam,hindi
+9	neverland	pan	2008	Excellent	tamil,english
+10	neverland2	pan	2009	Excellent	tamil,english
+QUERIES:-
+1.CREATE TABLE movies (
+    id INTEGER PRIMARY KEY,
+    title TEXT,
+    director TEXT,
+    year INTEGER, 
+    reviews text,
+genre text,
+);
+2. INSERT INTO movies VALUES (10, "neverland2", "pan", 2009, "Excellent","tamil,english");
+4.  INSERT INTO movies VALUES (11, "spiderman", "martin", 2009, "Excellent","tamil,english");
+Movies
+id	title	director	year	reviews	genre
+1	Toy Story 4	El Directore	2015	Good	english,tamil
+2	Toy Story 2	El Directore	2018	Good	english,tamil
+3	ponniyin selvan	manirathnam	2022	good	tamil,english,malayalam
+4	ponniyin selvan 2	manirathnam	2023	good	tamil,english,malayalam
+5	Avatar	lay	2008	good	tamil,english
+6	Avatar2	lay	2023	good	tamil,english
+7	pirates	jack	2002	good	tamil,english,malayalam,hindi
+8	peter pan	pan	2002	good	tamil,english,malayalam,hindi
+9	neverland	pan	2008	Excellent	tamil,english
+10	neverland2	pan	2009	Excellent	tamil,english
+11	spiderman	martin	2009	Excellent	tamil,eng
+3.DELETE FROM movies
+where year =2008;
+Movies
+id	title	director	year	reviews	genre
+1	Toy Story 4	El Directore	2015	Good	english,tamil
+2	Toy Story 2	El Directore	2018	Good	english,tamil
+3	ponniyin selvan	manirathnam	2022	good	tamil,english,malayalam
+4	ponniyin selvan 2	manirathnam	2023	good	tamil,english,malayalam
+6	Avatar2	lay	2023	good	tamil,english
+7	pirates	jack	2002	good	tamil,english,malayalam,hindi
+8	peter pan	pan	2002	good	tamil,english,malayalam,hindi
+10	neverland2	pan	2009	Excellent	tamil,english
+11	spiderman	martin	2009	Excellent	tamil,eng
+5.select title,id from movies;
+
+Output
+title	id
+Toy Story 4	1
+Toy Story 2	2
+ponniyin selvan	3
+ponniyin selvan 2	4
+Avatar2	6
+pirates	7
+peter pan	8
+6.select * from movies;
+
+Output
+id	title	director	year	reviews	genre
+1	Toy Story 4	El Directore	2015	Good	english,tamil
+2	Toy Story 2	El Directore	2018	Good	english,tamil
+3	ponniyin selvan	manirathnam	2022	good	tamil,english,malayalam
+4	ponniyin selvan 2	manirathnam	2023	good	tamil,english,malayalam
+6	Avatar2	lay	2023	good	tamil,english
+7	pirates	jack	2002	good	tamil,english,malayalam,hindiect
+8	peter pan	pan	2002	good	tamil,english,malayalam,hindi
+10	neverland2	pan	2009	Excellent	tamil,english
+11	spiderman	martin	2009	Excellent	tamil,eng
+
+
+
+
+
